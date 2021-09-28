@@ -1,0 +1,2 @@
+# lc-style
+// read me

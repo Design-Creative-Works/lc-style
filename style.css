@@ -1,0 +1,81 @@
+/*
+Theme Name:     Neve Child
+Theme URI:      https://themeisle.com/themes/neve/
+Template: neve
+Author:         Transformers
+Author URI:     https://themeisle.com
+Description:    Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!
+Version:        1.0.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    neve
+Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles
+*/
+
+/* Leverage Capital Style Guide
+Fonts: Main Headings: poppins bold
+       Sub Headings: poppins
+       Paragraph: poppins
+Color: white
+      black
+       Dark Green #0c5b45
+       Light green   #d1e4dd
+Images: Natural People
+Likes: Material Design Language
+*/
+
+
+.site-logo img {
+   max-height: 165px;
+   width: 45vw;
+}
+
+#masthead{
+   background-color: white;
+}
+ /* styles hover over links*/
+a:hover {
+  background: #0c5b45;
+  color:    #f0f0f1; 
+}
+.main-navigation .nav-menu{
+   text-align: center;
+   color: #f0f0f1;
+   /*padding: 15px 25px;*/
+   padding: 1.25rem;
+}
+.main-navigation a {
+   font-weight: normal;
+   color: #f0f0f1;
+   font-size: 16px;
+   line-height: 1.5;
+}
+/*.main-navigation a:hover {*/
+/*    font-weight: normal;*/
+/*    background: #0c5b45;*/
+/*    padding-top:5px;*/
+/*    padding-bottom:5px;*/
+/*    font-size: 16px;*/
+/*    line-height: 1.5;*/
+/* }*/
+.nav-ul li a {
+   display: flex;
+   align-items: center;
+   /*min-height: var(--height);*/
+   /*color: var(--color);*/
+   position: relative;
+   padding: 1rem;
+}
+.nav-ul li a:hover {
+   font-weight: normal;
+   /*background: #0c5b45;*/
+   border-radius:10px;
+   color: #f0f0f1;
+   /*border: 2px solid #d0d0d0;*/
+   font-size: 16px;
+   line-height: 1.5;
+}
+body {
+background-color: #d1e4dd;
+}
+

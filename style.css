@@ -24,70 +24,84 @@ Images: Natural People
 Likes: Material Design Language
 */
 
-
-.site-logo img {
+/* top nav */
+/* #masthead{
+   background-color: white;
+} */
+/* brand id & logo */
+.brand {
+   background-color: white;
+   padding: 0.1rem;
+}
+.brand img {
    max-height: 165px;
    width: 45vw;
+   margin-left:-5px;
+   padding: 0.1rem;
 }
-
-#masthead{
-   background-color: white;
+/* contact us button style */
+.btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
+   padding: 0.65rem;
+   border-radius:10px;
+   background: black;
+   border: 1px solid #0c5b45;
 }
- /* styles hover over links*/
-a:hover {
-  background: #0c5b45;
-  color:    #f0f0f1; 
-  padding: 0.25rem;
+.btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
+ }
+ /* hamburger toggle */
+ .builder-item--nav-icon {
+   --padding: 10px ;
+   --margin: 10px 15px 10px 15px;
 }
-.main-navigation .nav-menu{
-   text-align: center;
-   color: #f0f0f1;
-   /*padding: 15px 25px;*/
-   padding: 1.25rem;
+ .navbar-toggle{
+   background: #f0f0f1;
+   border: 4px solid #0c5b45;
+ }
+ .icon-bar {
+   width: 15px;
+   height: 2px;
 }
-.main-navigation a {
-   font-weight: normal;
-   color: #f0f0f1;
-   font-size: 16px;
-   line-height: 1.5;
+/* top navigation */
+#nv-primary-navigation-top .menu-item{
+   display: flex;
+   align-items: center;
+   position: relative;
+   border-radius:10px;
+   border: 1px solid #0c5b45;
 }
-/*.main-navigation a:hover {*/
-/*    font-weight: normal;*/
-/*    background: #0c5b45;*/
-/*    padding-top:5px;*/
-/*    padding-bottom:5px;*/
-/*    font-size: 16px;*/
-/*    line-height: 1.5;*/
-/* }*/
+#nv-primary-navigation-top .menu-item:hover {
+   background: #0c5b45;
+   color:    #f0f0f1; 
+   }
+/* menu items */
 .nav-ul li a {
    display: flex;
    align-items: center;
-   /*min-height: var(--height);*/
-   /*color: var(--color);*/
    position: relative;
-   padding: 1rem;
-}
-.nav-ul li a:hover {
+   padding: 0.75rem;
+} 
+ .nav-ul li a:hover {
    font-weight: normal;
-   /*background: #0c5b45;*/
    border-radius:10px;
    color: #f0f0f1;
-   /*border: 2px solid #d0d0d0;*/
-   font-size: 16px;
-   line-height: 1.5;
 }
+/* body text styles hover over links*/
+a:hover {
+  background: #0c5b45;
+  color: #f0f0f1;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
 body {
 background-color: #d1e4dd;
 }
 
-/* test note for GIT 18_20 */
-/* footer menu style */
 /* TODO  */
 /* need footer menu for: social media / disclaimer / subscribe */
-
 /* TODO  */
 /* - remove following ic background & font colour to list items before production */
 
+/* footer menu style */
 #menu-footer-business a{
    /* background: pink;
    color:    red;  */

@@ -37,6 +37,7 @@ Likes: Material Design Language
 a:hover {
   background: #0c5b45;
   color:    #f0f0f1; 
+  padding: 0.25rem;
 }
 .main-navigation .nav-menu{
    text-align: center;
@@ -80,3 +81,54 @@ background-color: #d1e4dd;
 }
 
 /* test note for GIT 18_20 */
+/* footer menu style */
+/* TODO  */
+/* need footer menu for: social media / disclaimer / sunscribe */
+
+/* TODO  */
+/* - remove following ic background & font colour to list items before production */
+
+#menu-footer-business a{
+   /* background: pink;
+   color:    red;  */
+   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+   font-size: 1.1em;
+ }
+#menu-footer-business a:hover{
+   background: #0c5b45;
+   color:    #f0f0f1; 
+   text-transform: uppercase;
+}
+#menu-footer-personal a{
+   /* background: pink;
+   color:    red;  */
+   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+   font-size: 1.1em;
+ }
+#menu-footer-personal a:hover{
+   background: #0c5b45;
+   color:    #f0f0f1; 
+   text-transform: uppercase;   
+}
+#menu-footer-about a{
+   /* background: pink;
+   color:    red;  */
+   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+   font-size: 1.1em;
+ }
+#menu-footer-about a:hover{
+   background: #0c5b45;
+   color:    #f0f0f1; 
+   text-transform: uppercase;
+}
+#menu-footer-legal a{
+   /* background: pink;
+   color:    red;  */
+   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+   font-size: 1.1em;
+ }
+#menu-footer-legal a:hover{
+   background: #0c5b45;
+   color:    #f0f0f1; 
+   text-transform: uppercase;
+}

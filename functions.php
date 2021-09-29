@@ -1,4 +1,11 @@
 <?php
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+function my_theme_enqueue_styles() {
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css' , array('parent-style'), wp_get_theme()->get('Version') );
+}
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -8,7 +15,11 @@ if ( ! function_exists( 'neve_child_load_css' ) ):
 	 * Load CSS file.
 	 */
 	function neve_child_load_css() {
-		wp_enqueue_style( 'neve-child-style', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'neve-style' ), NEVE_VERSION );
+		wp_enqueue_style( 'neve-child-style',
+		 trailingslashit( get_stylesheet_directory_uri() ) 
+		 .'style.css', 
+		 array( 'neve-style' ), 
+		 NEVE_VERSION );
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'neve_child_load_css', 20 );

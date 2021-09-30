@@ -36,7 +36,7 @@ Likes: Material Design Language
 .brand img {
    max-height: 165px;
    width: 45vw;
-   margin-left:-5px;
+   /* margin-left:-5px; */
    padding: 0.1rem;
 }
 /* contact us button style */
@@ -47,18 +47,32 @@ Likes: Material Design Language
    border: 1px solid #0c5b45;
 }
 /* navbar call Now */
-.fa-phone{
+/* https://fontawesome.com/v5.15/how-to-use/on-the-web/styling/rotating-icons */
+
+.builder-item {
+padding-left:0rem;
+}
+/* icon */
+.fa-phone:before{
    color: #0c5b45;
-   font-size: 1.5em;
-   margin-left:-20px;
+   font-size: 1.85rem;
+}
+.fa-phone:hover:before {
+   color: red;
 }
 .builder-item .item--inner {
    color: #0c5b45;
  }
- .phoneNow{
-    padding-top:1rem;
-    padding-right:1rem;
+ /* group text */
+ .item--inner .builder-item--custom_html{
+   padding-bottom: 0.35rem;
+   font-size: 1.5rem;
  }
+
+ .phoneNow:hover{
+   color: red;
+   font-size: 1.5rem;
+  }
 
  /* hamburger toggle */
  .builder-item--nav-icon {

@@ -16,7 +16,7 @@ Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-la
 Fonts: Main Headings: poppins bold
        Sub Headings: poppins
        Paragraph: poppins
-Color: white
+Color: white  ffffff
       black
        Dark Green #0c5b45
        Light green   #d1e4dd
@@ -43,14 +43,16 @@ Likes: Material Design Language
 .btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
    padding: 0.65rem;
    border-radius:10px;
-   background: black;
-   border: 1px solid #0c5b45;
+   /* background: black;
+   border: 1px solid #0c5b45; */
 }
+
 /* navbar call Now */
 /* https://fontawesome.com/v5.15/how-to-use/on-the-web/styling/rotating-icons */
 
 .builder-item {
-padding-left:0rem;
+padding-left:0.25rem;
+padding-right:0.25rem;
 }
 /* icon */
 .fa-phone:before{
@@ -58,7 +60,9 @@ padding-left:0rem;
    font-size: 1.85rem;
 }
 .fa-phone:hover:before {
-   color: red;
+   /* color: red; */
+   /* color: black; */
+   color: #0c5b45;
 }
 .builder-item .item--inner {
    color: #0c5b45;
@@ -68,16 +72,19 @@ padding-left:0rem;
    padding-bottom: 0.35rem;
    font-size: 1.5rem;
  }
-
+.item--inner .builder-item--button_base:hover{
+   background: #0c5b45;
+}
  .phoneNow:hover{
-   color: red;
+   /* color: red; */
+   color: black;
    font-size: 1.5rem;
   }
 
  /* hamburger toggle */
  .builder-item--nav-icon {
-   --padding: 10px ;
-   --margin: 10px 15px 10px 15px;
+   padding: 10px ;
+   margin: 10px 15px 10px 15px;
 }
  .navbar-toggle{
    background: #f0f0f1;
@@ -87,30 +94,60 @@ padding-left:0rem;
    width: 15px;
    height: 2px;
 }
-/* top navigation */
+/* top navigation [services / faqs/ about us]*/
 #nv-primary-navigation-top .menu-item{
    display: flex;
    align-items: center;
-   position: relative;
-   border-radius:10px;
-   border: 1px solid #0c5b45;
+   /* position: relative; */
+   /* border-radius:10px; */
+   /* border: 1px solid #0c5b45; */
+   /* color:    #f0f0f1;  */
 }
 #nv-primary-navigation-top .menu-item:hover {
    background: #0c5b45;
-   color:    #f0f0f1; 
+   color: white; 
    }
 /* menu items */
 .nav-ul li a {
-   display: flex;
+   /* display: flex; */
    align-items: center;
-   position: relative;
+   /* position: relative; */
    padding: 0.75rem;
+} 
+.nav-ul li a {
+   color: black;
+   /* background: pink; */
 } 
  .nav-ul li a:hover {
    font-weight: normal;
-   border-radius:10px;
+   /* border-radius:10px; */
+   background: #0c5b45;
    color: #f0f0f1;
 }
+/* nav drop down menu */
+.nav-ul .sub-menu {
+    z-index: 100;
+   top: 100%;
+     /* opacity: 50; */
+   right: 0;
+   color: white;
+}
+
+.nav-ul .sub-menu li {
+   min-width: 120px;
+   max-width: 120px;
+   margin-top: 1rem;
+   align-items: center;
+}
+.nav-ul .sub-menu li a {
+   display: flex;
+   align-items: center;
+   /* position: relative; */
+   padding: 0.75rem;
+
+}
+
+
 /* body text styles hover over links*/
 a:hover {
   background: #0c5b45;
@@ -128,6 +165,9 @@ background-color: #d1e4dd;
 /* - remove following ic background & font colour to list items before production */
 
 /* footer menu style */
+.widget-title{
+   color:    #f0f0f1; 
+}
 #menu-footer-business a{
    /* background: pink;
    color:    red;  */
@@ -171,4 +211,7 @@ background-color: #d1e4dd;
    background: #0c5b45;
    color:    #f0f0f1; 
    text-transform: uppercase;
+}
+.component-wrap {
+   color:    #f0f0f1; 
 }

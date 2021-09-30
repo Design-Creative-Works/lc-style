@@ -46,8 +46,20 @@ Likes: Material Design Language
    background: black;
    border: 1px solid #0c5b45;
 }
-.btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
+/* navbar call Now */
+.fa-phone{
+   color: #0c5b45;
+   font-size: 1.5em;
+   margin-left:-20px;
+}
+.builder-item .item--inner {
+   color: #0c5b45;
  }
+ .phoneNow{
+    padding-top:1rem;
+    padding-right:1rem;
+ }
+
  /* hamburger toggle */
  .builder-item--nav-icon {
    --padding: 10px ;

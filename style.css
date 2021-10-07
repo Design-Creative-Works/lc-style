@@ -39,6 +39,12 @@ Likes: Material Design Language
    /* margin-left:-5px; */
    padding: 0.1rem;
 }
+.item--inner .builder-item--logo:hover {
+   /* max-height: 165px;
+   width: 45vw;
+    padding: 0.1rem; */
+    /* color:pink; */
+}
 /* contact us button style */
 .btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
    padding: 0.65rem;
@@ -98,13 +104,9 @@ padding-right:0.25rem;
 #nv-primary-navigation-top .menu-item{
    display: flex;
    align-items: center;
-   /* position: relative; */
-   /* border-radius:10px; */
-   /* border: 1px solid #0c5b45; */
-   /* color:    #f0f0f1;  */
 }
 #nv-primary-navigation-top .menu-item:hover {
-   background: #0c5b45;
+   /* background: #0c5b45; */
    color: white; 
    }
 /* menu items */
@@ -147,7 +149,6 @@ padding-right:0.25rem;
 
 }
 
-
 /* body text styles hover over links*/
 a:hover {
   background: #0c5b45;
@@ -165,9 +166,8 @@ background-color: #d1e4dd;
 /* - remove following ic background & font colour to list items before production */
 
 /* footer menu style */
-.widget-title{
-   color:    #f0f0f1; 
-}
+
+
 #menu-footer-business a{
    /* background: pink;
    color:    red;  */
@@ -217,19 +217,20 @@ background-color: #d1e4dd;
 }
 
 /*  widget title ( footer site map) test colour */
+/* .widget-title{
+   color:    pink; 
+} */
 h2.widgettitle {
-   /* color: pink; */
-   color: red;
+    color: red;
 }
 /*  social media */
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:active {
-
+   padding: 0.25rem;
    background-color: #0c5b45;
-   fill: white;
    font-size: 2rem;
-}
+   /* fill: white; */
+  }
 
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:hover{
    background-color: black;
-   fill: black;
 }

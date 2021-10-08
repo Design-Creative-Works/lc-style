@@ -168,8 +168,9 @@ background-color: #d1e4dd;
    font-size: 1.1em;
  }
 #menu-footer-business a:hover{
-   color:    #f0f0f1; 
-   font-size: 1.25em;
+   color:    #dfdfe4aa; 
+   /* color:    #f0f0f1;  */
+   /* font-size: 1.25em; */
    /* text-transform: uppercase; */
 }
 #menu-footer-personal a{
@@ -177,8 +178,9 @@ background-color: #d1e4dd;
    font-size: 1.1em;
  }
 #menu-footer-personal a:hover{
-   color:    #f0f0f1; 
-   font-size: 1.25em;
+   color:    #dfdfe4aa; 
+   /* color:    #f0f0f1;  */
+   /* font-size: 1.25em; */
    /* text-transform: uppercase; */
 }
 #menu-footer-about a{
@@ -186,8 +188,9 @@ background-color: #d1e4dd;
    font-size: 1.1em;
  }
 #menu-footer-about a:hover{
-   color:    #f0f0f1; 
-   font-size: 1.25em;
+   color:    #dfdfe4aa; 
+   /* color:    #f0f0f1;  */
+   /* font-size: 1.25em; */
    /* text-transform: uppercase; */
 }
 #menu-footer-legal a{
@@ -195,8 +198,9 @@ background-color: #d1e4dd;
    font-size: 1.1em;
  }
 #menu-footer-legal a:hover{
-   color:    #f0f0f1; 
-   font-size: 1.25em;
+   color:    #dfdfe4aa; 
+   /* color:    #f0f0f1;  */
+   /* font-size: 1.25em; */
    /* text-transform: uppercase; */
 }
 .component-wrap {

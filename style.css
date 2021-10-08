@@ -210,7 +210,8 @@ background-color: #d1e4dd;
 
 /* site map header text */
 .widgettitle {
-    color:#f0f0f1;
+   color:#f0f0f1;
+   font-size: 1.35em;
    text-transform: uppercase;
 }
 /* social media */

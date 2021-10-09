@@ -217,6 +217,7 @@ background-color: #d1e4dd;
 .wp-block-social-links .wp-social-link.wp-social-link.wp-social-link {
    background-color:#121212;
    margin-top: 1rem;
+   margin-right: 0.5rem;
    margin-bottom: 2rem;
 }
 .wp-block-social-links .wp-social-link.wp-social-link.wp-social-link:hover {

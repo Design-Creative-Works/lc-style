@@ -73,12 +73,32 @@ padding-right:0.25rem;
    color: #0c5b45;
  }
  /* group text */
+/* make header nav sticky at top of page */
+#header-grid{
+position: fixed;
+margin-top: 0px !important;
+width: 100%;
+z-index: 999900;
+}
+.header-menu-sidebar .nav-ul .sub-menu a {
+    padding: 1.25rem;
+    border: none;
+}
+.header-menu-sidebar .nav-ul .sub-menu a:hover {
+   background-color: #0c5b45;
+   padding-right: 1rem;
+}
+/* when on - potentially affects the text by the contact us button - check to see if other elements affected */
+ /* .builder-item .item--inner {
+   color: #0c5b45;
+   font-family: inherit;
+} */
  .item--inner .builder-item--custom_html{
    padding-bottom: 0.35rem;
    font-size: 1.5rem;
  }
-.item--inner .builder-item--button_base:hover{
-   background: #0c5b45;
+ .builder-item .item--inner {
+   font-family: 'Poppins';
 }
 .phoneNow{
    font-size: 1.25rem;
@@ -137,8 +157,8 @@ padding-right:0.25rem;
 }
 
 .nav-ul .sub-menu li {
-   min-width: 120px;
-   max-width: 120px;
+   min-width: 100px;
+   max-width: 150px;
    margin-top: 1rem;
    align-items: center;
 }
@@ -226,8 +246,8 @@ background-color: #d1e4dd;
 
 .wp-block-social-links .wp-social-link svg {
    background-color: transparent;
-   width: 1.3em;
-   height: 1.3em;
+   width: 1.35em;
+   height: 1.35em;
 }
 
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:active {

@@ -73,8 +73,13 @@ padding-right:0.25rem;
    color: #0c5b45;
  }
  /* group text */
-
-
+/* make header nav sticky at top of page */
+#header-grid{
+position: fixed;
+margin-top: 0px !important;
+width: 100%;
+z-index: 999900;
+}
 .header-menu-sidebar .nav-ul .sub-menu a {
     padding: 1.25rem;
     border: none;
@@ -83,11 +88,11 @@ padding-right:0.25rem;
    background-color: #0c5b45;
    padding-right: 1rem;
 }
-
- .builder-item .item--inner {
+/* when on - potentially affects the text by the contact us button - check to see if other elements affected */
+ /* .builder-item .item--inner {
    color: #0c5b45;
    font-family: inherit;
-}
+} */
  .item--inner .builder-item--custom_html{
    padding-bottom: 0.35rem;
    font-size: 1.5rem;

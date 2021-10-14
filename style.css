@@ -286,10 +286,11 @@ a:hover {
    /* color: #121212; */
   } 
 
-  /* not found */
+  /* not found - top*/
   #not-found{
    padding-top: 7rem;
   }
+    /* not found - search form*/
   #not-found-search{
      margin-bottom: 7rem;
   }

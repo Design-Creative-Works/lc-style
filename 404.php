@@ -16,11 +16,12 @@ get_header();
 				<header class="page-header">
 					<h1 class="page-title" >
                         <?php 
-                        _e( 'Oops thats a 404!  well thats not good.....', 'neve' ); ?> </h1>              
+                        _e( '404 - page not found', 'neve' ); ?> </h1>              
 				</header><!-- .page-header -->
 				<div class="page-content" > 
-                     <h2>It looks like that page can't be found.</h2>   
-					<p>'Would you like to re-try your search?'</p>
+                     <p>The URL you've requested could not be found. The page could have been moved or is no longer live on the website. </p>  
+					 <p>Please use the search or menu bar above to try and find a page relevant to you.</p>   
+					<!-- <p>'Would you like to re-try your search?'</p> -->
 					<div id="not-found-search">
 								<?php get_search_form(); ?>
 					</div>

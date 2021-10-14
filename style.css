@@ -34,11 +34,13 @@ body {
    /* background-color: #d1e4dd; */
    background-color: whitesmoke;
    }
+   /* default hi title heading padding  */
    h1 {
       padding-top: 2rem;
-
   }
-
+  .wp-block-column {
+   padding-top: 2.5rem;
+}
 /* brand id & logo */
 .brand {
    background-color: white;

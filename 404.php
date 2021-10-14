@@ -21,7 +21,10 @@ get_header();
 				<div class="page-content" > 
                      <h2>It looks like that page can't be found.</h2>   
 					<p>'Would you like to re-try your search?'</p>
-					<?php get_search_form(); ?>
+					<div id="not-found-search">
+								<?php get_search_form(); ?>
+					</div>
+			
 				</div><!-- .page-content -->
 			</div><!-- .error-404 -->
         </div>

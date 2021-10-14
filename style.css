@@ -29,6 +29,16 @@ Likes: Material Design Language
 /* #masthead{
    background-color: white;
 } */
+
+body {
+   /* background-color: #d1e4dd; */
+   background-color: whitesmoke;
+   }
+   h1 {
+      padding-top: 2rem;
+
+  }
+
 /* brand id & logo */
 .brand {
    background-color: white;
@@ -176,9 +186,19 @@ a:hover {
   color: black;
   padding: 0.1rem;
 }
+/* default background colour */
 
-body {
-background-color: #d1e4dd;
+/* subscribe */
+#wpforms-261-field_1-container {
+   padding: 1rem;
+   clear: both;
+}
+.wpforms-form button[type=submit]{
+   background-color: #eee;
+   border: 1px solid #ddd;
+   color: #333;
+   font-size: 1em;
+   padding: 6px 15px;
 }
 
 /* footer menu style */

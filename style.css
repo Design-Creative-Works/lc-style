@@ -285,3 +285,10 @@ a:hover {
    background-color: #121212;
    /* color: #121212; */
   } 
+
+  /* not found */
+  #not-found{
+   padding-top: 5rem;
+   padding-bottom:5rem;
+
+  }

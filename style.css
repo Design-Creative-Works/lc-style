@@ -262,6 +262,10 @@ a:hover {
 .wp-block-column {
    padding-top: 1rem;
 }
+/* block col padding */
+.wp-block-columns.has-background {
+   padding: 2.5rem 2.375rem;
+}
 /* social media */
 .wp-block-social-links .wp-social-link.wp-social-link.wp-social-link {
    background-color:#121212;

@@ -1,11 +1,11 @@
 /*
-Theme Name:     Neve Child
+Theme Name:    Theme Transformers
 Theme URI:      https://themeisle.com/themes/neve/
 Template:       neve
 Author:         Transformers
 Author URI:     https://themeisle.com
-Description:    Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!
-Version:        1.0.0
+Description:    Theme Transformers is a custom theme based on the neve theme, It has been custom designed for the transformers team for Leverage Capital
+Version:        1.0.1
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    nevechild
@@ -297,11 +297,11 @@ a:hover {
    /* color: #121212; */
   } 
 
-  /* not found - top*/
-  #not-found{
-   padding-top: 7rem;
-  }
-    /* not found - search form*/
-  #not-found-search{
-     margin-bottom: 7rem;
-  }
+   /* not found - top*/
+   #not-found{
+      padding-top: 5rem;
+     }
+       /* not found - search form*/
+     #not-found-search{
+        margin-bottom: 7rem;
+     }

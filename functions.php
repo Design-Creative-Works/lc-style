@@ -6,6 +6,7 @@ function my_theme_enqueue_styles() {
 }
 
 
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
@@ -22,5 +23,3 @@ if ( ! function_exists( 'neve_child_load_css' ) ):
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'neve_child_load_css', 20 );
-
-

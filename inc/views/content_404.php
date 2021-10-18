@@ -34,7 +34,7 @@ class Content_404 extends Base_View {
 
 		echo '<div class="col-12 nv-content-none-wrap">';
 		echo '<p>';
-		esc_html_e( 'This is a 404 test message, neve'  );
+		esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'neve' );
 		echo '</p>';
 		echo '<div class="nv-seach-form-wrap">';
 		get_search_form();
@@ -48,5 +48,3 @@ class Content_404 extends Base_View {
 		echo '</div>';
 	}
 }
-
-// 		// 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.','neve'

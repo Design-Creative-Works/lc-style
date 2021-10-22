@@ -50,40 +50,34 @@ body {
    /* margin-left:-5px; */
    padding: 0.1rem;
 }
-.item--inner .builder-item--logo:hover {
-   /* max-height: 165px;
-   width: 45vw;
-    padding: 0.1rem; */
-    /* color:pink; */
-}
+
 /* contact us button style */
 .btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
    padding: 0.65rem;
    border-radius:10px;
-   /* background: black;
-   border: 1px solid #0c5b45; */
 }
 
 /* navbar call Now */
-/* https://fontawesome.com/v5.15/how-to-use/on-the-web/styling/rotating-icons */
-
-/* .builder-item {
-padding-left:0.25rem;
-padding-right:0.25rem;
-} */
 /* icon */
 .fa-phone:before{
    color: #0c5b45;
-   /* font-size: 1.5rem; */
 }
 .fa-phone:hover:before {
    color: #0c5b45;
+  
+}
+.fa-phone:hover:after {
+   color: #0c5b45;
+   margin-bottom:5px; 
 }
 .builder-item .item--inner {
    color: #0c5b45;
  }
+ .callNow{
+   margin-bottom:5px;
+ }
  /* group text */
-/* make header nav sticky at top of page */
+/* makes header nav sticky at top of page */
 #header-grid{
 position: fixed;
 margin-top: 0px !important;
@@ -91,12 +85,12 @@ width: 100%;
 z-index: 999900;
 }
 .header-menu-sidebar .nav-ul .sub-menu a {
-    padding: 1.25rem;
+   padding: 1.25rem;
     border: none;
 }
 .header-menu-sidebar .nav-ul .sub-menu a:hover {
    background-color: #0c5b45;
-   padding-right: 1rem;
+   /* padding-right: 1rem; */
 }
 /* when on - potentially affects the text by the contact us button - check to see if other elements affected */
  /* .builder-item .item--inner {
@@ -115,7 +109,6 @@ z-index: 999900;
   }
  .phoneNow:hover{
    color: black;
-   /* font-size: 1.5rem; */
   }
 
  /* hamburger toggle */
@@ -137,7 +130,6 @@ z-index: 999900;
    align-items: center;
 }
 #nv-primary-navigation-top .menu-item:hover {
-   /* background: #0c5b45; */
    color: white; 
    }
 /* menu items */
@@ -153,15 +145,13 @@ z-index: 999900;
 } 
  .nav-ul li a:hover {
    font-weight: normal;
-   /* border-radius:10px; */
    background: #0c5b45;
    color: #f0f0f1;
 }
 /* nav drop down menu */
 .nav-ul .sub-menu {
-    z-index: 100;
+   z-index: 100;
    top: 100%;
-     /* opacity: 50; */
    right: 0;
    color: white;
 }
@@ -209,9 +199,6 @@ a:hover {
  }
 #menu-footer-business a:hover{
    color:    #dfdfe4aa; 
-   /* color:    #f0f0f1;  */
-   /* font-size: 1.25em; */
-   /* text-transform: uppercase; */
 }
 #menu-footer-personal a{
    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -219,9 +206,6 @@ a:hover {
  }
 #menu-footer-personal a:hover{
    color:    #dfdfe4aa; 
-   /* color:    #f0f0f1;  */
-   /* font-size: 1.25em; */
-   /* text-transform: uppercase; */
 }
 #menu-footer-about a{
    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -229,9 +213,6 @@ a:hover {
  }
 #menu-footer-about a:hover{
    color:    #dfdfe4aa; 
-   /* color:    #f0f0f1;  */
-   /* font-size: 1.25em; */
-   /* text-transform: uppercase; */
 }
 #menu-footer-legal a{
    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -292,8 +273,9 @@ a:hover {
 
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:hover{
    /* padding: 0.85rem; */
-   color:#0c5b45;
-   background-color: #121212;
+   color: #f0f0f1;
+   background-color:#024d47; 
+   /* change to dark green * /
    /* color: #121212; */
   } 
 

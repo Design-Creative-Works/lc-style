@@ -295,5 +295,5 @@ img.wprevpro_t1_site_logo {
     height: 32px;
     width: unset;
     margin-bottom: unset!important;
-    visibility: hidden;
+    visibility: hidden !important;
 }

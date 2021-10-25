@@ -179,6 +179,9 @@ a:hover {
 /* default background colour */
 
 /* subscribe */
+label#wpforms-261-field_12-error {
+   color: white;
+}
 #wpforms-261-field_1-container {
    padding: 1rem;
    clear: both;
@@ -191,6 +194,12 @@ a:hover {
    padding: 6px 15px;
 }
 
+/* card icons services cards*/
+i.fas.fa-circle {
+   font-weight: 900;
+   font-size: 0.8rem;
+   margin: 1rem;
+}
 /* footer menu style */
 
 #menu-footer-business a{

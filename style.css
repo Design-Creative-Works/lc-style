@@ -179,6 +179,9 @@ a:hover {
 /* default background colour */
 
 /* subscribe */
+label#wpforms-261-field_12-error {
+   color: white;
+}
 #wpforms-261-field_1-container {
    padding: 1rem;
    clear: both;

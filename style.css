@@ -193,6 +193,13 @@ label#wpforms-261-field_12-error {
    font-size: 1em;
    padding: 6px 15px;
 }
+/* aligns text field with button */
+.wpforms-container-full.inline-fields .wpforms-form .wpforms-field {
+   display: table-cell;
+   padding-right: 2%;
+   vertical-align: top;
+   padding-top: 1rem;
+}
 
 /* card icons services cards*/
 i.fas.fa-circle {
